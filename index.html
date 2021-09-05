@@ -1,29 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About-Div Tag</title>
-    
+
     <style>
-        *{padding: 0;margin: 0;box-sizing: border-box;}
-        
-        #container
-        {
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        #container {
             display: inline-flex;
         }
-        body{
+
+        /* body {
             background-color: rgb(214, 111, 104);
-        }
-        .box{
+        } */
+
+        .box {
             width: 350px;
             background-color: blueviolet;
             height: 400px;
             overflow: auto;
             overflow: hidden;
-            border:2px solid black;
-            margin-bottom:10px;
+            border: 2px solid black;
+            margin-bottom: 10px;
             text-align: justify;
             padding: 20px;
             margin-right: 20px;
@@ -31,103 +37,132 @@
             margin-top: 40px;
             border: 5px solid rgb(43, 15, 15);
 
-            
-            
-            
+
+
+
         }
-        
-        #box1{
+
+        #box1 {
             background-color: blue;
             margin-left: 40px;
+
         }
-        #box2{
-            background-color:pink;
+
+        #box2 {
+            background-color: pink;
         }
-        #box3{
+
+        #box3 {
             background-color: blueviolet;
         }
-        #box4{
+
+        #box4 {
             background-color: greenyellow;
-            
+
         }
-        .box img 
-        {
-            width:100%;
-            height:100px;
+
+        .box img {
+            width: 100%;
+            height: 100px;
             border-radius: 20px;
         }
-        .box h2{
+
+        .box h2 {
             text-align: center;
-            
+
         }
-       .mybutton
-        {
-           display:block;
-           margin-top: 10px;
-           text-decoration: none;
-           color: white;
-           font-family: Arial;
-           background-color: rgb(12, 16, 24);
-           padding: 10px 20px;
-           border-radius: 20px;
-           
-           
-           
-          
+
+        .mybutton {
+            display: block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: white;
+            font-family: Arial;
+            background-color: rgb(83, 124, 207);
+            padding: 10px 20px;
+            border-radius: 20px;
+
+
+
+
         }
-        .mybutton:hover
-        {
+
+        .mybutton:hover {
             background-color: rgb(224, 54, 134);
         }
-        
+
+        #first {
+            display: block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: white;
+            font-family: Arial;
+            background-color: rgb(224, 54, 134);
+            padding: 10px 20px;
+            border-radius: 20px;
+        }
     </style>
 </head>
-<body >
-    <h1 style="color: white;text-align: center;font-family: Arial, Helvetica, sans-serif;margin-top: 5px;border: 10px solid rgb(114, 96, 194);padding: 5px;background: black;">PRACTICAL-6:CREATE FOLLOWING LAYOUT  USING CSS LAYOUT PROPERTIES </h1>  
+
+<body>
+    <!-- <h1
+        style="color: white;text-align: center;font-family: Arial, Helvetica, sans-serif;margin-top: 10px;border: 10px solid rgb(114, 96, 194);padding: 5px;background: black;margin-left: 10px;margin-right: 10px;">
+        PRACTICAL-6:CREATE FOLLOWING LAYOUT USING CSS LAYOUT PROPERTIES </h1> -->
     <div id="container">
-    
-    <div class="box" id="box1">
-    <div class="image-heading">
-        <img src="./assiign2logo.JPG" alt="">
-    </div>
-    <h2 style="margin-top: 5px;margin-bottom: 5px;">Introduction to HTML</h2>
-    <p style="text-align: center;color: white;font-family:cursive;">HTML is a standard markup language for web pages.With HTML you can create your own website.It consists of series of elements.HTML elements tell the browser how to display content.</p>
-    <div class="image" style="text-align:center">
-    <a href="index1.html" class="mybutton" >Read More</a>
-    </div>
-</div>
-    <div class="box" id="box2">
-        <div class="image-heading">
-            <img src="./css.JPG" alt="">
-            </div>
-    <h2 style="margin-top: 5px;margin-bottom: 5px;">Introduction to CSS</h2>
-    <p style="text-align: center;color: white;font-family:cursive;">CSS stands for cascading style sheets it describes how HTML elements are to be displayed on screeen ,paper ,or in other media it saves a lot of work and can control web pages layout.</p>
-    <div class="image" style="text-align:center">
-        <a href="index2.html" class="mybutton" >Read More</a>
-        </div>
 
-    </div>
-    <div class="box" id="box3">
-        <div class="image-heading">
-            <img src="./js.JPG" alt="">
+        <div class="box" id="box1">
+            <div class="image-heading">
+                <img src="./assiign2logo.JPG" alt="">
             </div>
-    <h2 style="margin-top: 5px;margin-bottom: 5px;">Introduction to JS</h2>
-    <p style="text-align: center;color: white;font-family:cursive">Javascript is the world popular programmimg lamguage.It is the programming language of the web,it is easy to learn.This tutorial will teach you SJs.</p>
-    <div class="image" style="text-align:center">
-        <a href="index3.html" class="mybutton" >Read More</a>
-        </div>
-    </div>
-    <div class="box" id="box4">
-        <div class="image-heading">
-            <img src="./bs.JPG" alt="">
-            </div>
-    <h2 style="margin-top: 5px;margin-bottom: 5px;">Introduction to Bootstrap</h2>
-    <p style="text-align: center;color: white;font-family:cursive">Bootstrap is a free-front end framework for faster and easier web development it also gives you the ability to easily create responsive designs.Bootstrap includes CSS .</p>
-    <div class="image" style="text-align:center">
-        <a href="index4.html" class="mybutton" >Read More</a>
-        </div>    
 
-</div>
+            <h2 style="margin-top: 5px;margin-bottom: 5px;">Introduction to HTML</h2>
+            <p style="text-align: center;color: white;font-family:cursive;">HTML is a standard markup language for web
+                pages.With HTML you can create your own website.It consists of series of elements.HTML elements tell the
+                browser how to display content.</p>
+            <div class="image" style="text-align:center">
+                <a href="index1.html" class="mybutton" id="first">Read More</a>
+            </div>
+        </div>
+        <div class="box" id="box2">
+            <div class="image-heading">
+                <img src="./css.JPG" alt="">
+            </div>
+            <h2 style="margin-top: 5px;margin-bottom: 5px;">Introduction to CSS</h2>
+            <p style="text-align: center;color: white;font-family:cursive;">CSS stands for cascading style sheets it
+                describes how HTML elements are to be displayed on screeen ,paper ,or in other media it saves a lot of
+                work and can control web pages layout.</p>
+            <div class="image" style="text-align:center">
+                <a href="index2.html" class="mybutton">Read More</a>
+
+            </div>
+
+        </div>
+        <div class="box" id="box3">
+            <div class="image-heading">
+                <img src="./js.JPG" alt="">
+            </div>
+            <h2 style="margin-top: 5px;margin-bottom: 5px;">Introduction to JS</h2>
+            <p style="text-align: center;color: white;font-family:cursive">Javascript is the world popular programmimg
+                lamguage.It is the programming language of the web,it is easy to learn.This tutorial will teach you SJs.
+            </p>
+            <div class="image" style="text-align:center">
+                <a href="index3.html" class="mybutton">Read More</a>
+            </div>
+        </div>
+        <div class="box" id="box4">
+            <div class="image-heading">
+                <img src="./bs.JPG" alt="">
+            </div>
+            <h2 style="margin-top: 5px;margin-bottom: 5px;">Introduction to Bootstrap</h2>
+            <p style="text-align: center;color: white;font-family:cursive">Bootstrap is a free-front end framework for
+                faster and easier web development it also gives you the ability to easily create responsive
+                designs.Bootstrap includes CSS .</p>
+            <div class="image" style="text-align:center">
+                <a href="index4.html" class="mybutton">Read More</a>
+            </div>
+
+        </div>
     </div>
 </body>
+
 </html>
